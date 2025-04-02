@@ -1,0 +1,11 @@
+README.md
+setup.py
+agentic_document_form_filler/__init__.py
+agentic_document_form_filler/main.py
+agentic_document_form_filler.egg-info/PKG-INFO
+agentic_document_form_filler.egg-info/SOURCES.txt
+agentic_document_form_filler.egg-info/dependency_links.txt
+agentic_document_form_filler.egg-info/requires.txt
+agentic_document_form_filler.egg-info/top_level.txt
+agentic_document_form_filler/lib/__init__.py
+agentic_document_form_filler/lib/config.py
