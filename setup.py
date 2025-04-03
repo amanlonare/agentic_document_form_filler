@@ -18,6 +18,15 @@ requires = [
     'llama-index-llms-groq',
 ]
 extras_requires = {
+    'dev': [
+        'pytest>=7.0',
+        'black>=22.0',
+        'isort>=5.0',
+        'flake8>=4.0',
+        'pre-commit>=2.0',
+        'build>=0.7',
+        'twine>=4.0',
+    ]
 }
 
 with open(os.path.join(
