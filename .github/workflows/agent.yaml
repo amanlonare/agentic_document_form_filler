@@ -20,6 +20,7 @@ jobs:
             python-version: ${{ matrix.pyver }}
             architecture: 'x64'
         - run: |
-            flake8 agentic_document_form_filler --count --show-source --statistics
             python -m pip install --upgrade pip
+            pip install -e ".[dev]"
+            flake8 agentic_document_form_filler --count --show-source --statistics
             pip install -e .
